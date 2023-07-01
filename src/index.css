@@ -310,7 +310,12 @@
     width: 225px;
     height: auto;
     margin-right: 70px;
-  
+  }
+
+  .img2 {
+    align-self: center;
+    width: 350px;
+    height: auto;
   }
 
 }
