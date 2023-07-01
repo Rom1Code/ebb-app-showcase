@@ -11,6 +11,10 @@ import ebb2 from"./ebb2.png"
 import ebb3 from"./ebb3.png"
 import ebb4 from"./ebb4.png"
 import ebb5 from"./ebb5.png"
+import ebb6 from"./ebb6.png"
+import ebb7 from"./ebb7.png"
+import ebb8 from"./ebb8.png"
+import ebb9 from"./ebb9.png"
 
 export default {
   homeHero,
@@ -25,5 +29,9 @@ export default {
   ebb2,
   ebb3,
   ebb4,
-  ebb5
+  ebb5,
+  ebb6,
+  ebb7,
+  ebb8,
+  ebb9
 };
