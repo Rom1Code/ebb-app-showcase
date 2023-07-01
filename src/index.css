@@ -72,14 +72,12 @@
   width: 40%;
   height: auto;
   margin-right: 70px;
-
 }
 
 .img-wrapper {
   width: 40%;
   height: auto;
   margin-left: 70px;
-
 }
 
 
@@ -301,6 +299,20 @@
     font-size: 15px;
     text-align: center;
   }
+
+  .img-wrapper {
+    width: 225px;
+    height: auto;
+    margin-left: 70px;
+  }
+
+  .img-wrapper-reverse {
+    width: 225px;
+    height: auto;
+    margin-right: 70px;
+  
+  }
+
 }
 
 /* Média query pour les écrans de taille maximale 600px */
