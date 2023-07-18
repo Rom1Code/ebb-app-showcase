@@ -8,6 +8,7 @@ const Download = () => {
     <div className='download'>
         <div className='text'>
           <h1>Télécharger l'application</h1>
+          <br/><br/>
           <div className='btn-dwl' onClick={() => window.open('https://play.google.com/store/apps/details?id=com.rom1code.ebbapp', "_blank")}>Télécharger</div>
         </div>
         <div className='download-img' >
