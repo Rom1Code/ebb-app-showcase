@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  margin: 0;
+}
 
 .section,
 .section-reverse {
@@ -16,6 +25,7 @@
 .section {
   color: white;
   background: linear-gradient(to bottom, #0bb049, white);
+  border-bottom-right-radius: 100% 50%;
 }
 
 .section-reverse {
@@ -239,12 +249,43 @@
   font-size: 25px;
 }
 
+.wave {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 123px;
+}
+
+.wave .shape-fill {
+    fill: #0BB049;
+}
+
+
+@keyframes waveAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
 
 /* Média query pour les écrans de taille maximale 900px */
 @media (max-width: 900px) {
   .section, .section-reverse {
     flex-direction: column;
     height: auto;
+    border-bottom-right-radius: 0% 0%;
+
   }
 
   .section-img {
