@@ -4,7 +4,7 @@ import assets from '../assets';
 
 const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, reverse }) => {
   return (
-    <div className={`${reverse ? 'section-reverse' : 'section' } `}>
+    <div className={`${reverse ? 'section-reverse' : 'section' } ${banner}  `}>
         <div className={`${reverse ? 'section-sub-reverse' : 'section-sub' } }`}>
             <div className={` ${reverse ? 'section-text-reverse' : 'section-text'} ${reverse ? 'translateRight' : 'translateLeft'} `}>
               <p className='section-title'>{title}</p>

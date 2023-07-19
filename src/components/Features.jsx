@@ -11,7 +11,7 @@ const Card = ({ iconUrl, iconText }) => {
 
 const Features = () => {
   return (
-    <div className='features'>
+    <div className='features banner03'>
       <div className='text'>
         <h1>Technologies</h1>
         <p className='desc'>L'application EBB a été développé avec la technologie : React Native</p>
