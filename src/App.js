@@ -33,8 +33,8 @@ const App = () => {
       />
       <Download />
       <div className="footer banner04">
-        <p>Made with love by {"Rom1Code"} 
-        </p>
+        <p>Contact :</p>
+        <p> romain.noeppel@eckbolsheim-basket.fr</p>
       </div>
     </>
   );

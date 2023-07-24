@@ -274,7 +274,7 @@ div {
 
 .img2 {
   align-self: center;
-  width: 30%;
+  width: 35%;
   height: auto;
 }
 
@@ -284,7 +284,8 @@ div {
   color: white;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+  padding-bottom: 50px;
   font-size: 30px;
   height: 200px;
 }
@@ -417,6 +418,9 @@ div {
     width: 350px;
     height: auto;
   }
+  .footer p {
+    font-size: 25px;
+  }
 
 }
 
@@ -428,6 +432,21 @@ div {
     width: 75px;
     font-size: 10px;
     text-align: center;
+  }
+
+  .img-wrapper-reverse {
+    width: 325px;
+    height: auto;
+    margin-left: 70px;
+  }
+
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0px;
+
   }
 }
 
@@ -448,12 +467,14 @@ div {
   }
 
   .img-wrapper-reverse {
-    width: 325px;
+    width: 300px;
     height: auto;
     margin-left: 70px;
-
   }
 
+  .footer p {
+    font-size: 20px;
+  }
 
 }
 
