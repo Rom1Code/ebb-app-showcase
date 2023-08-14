@@ -3,7 +3,8 @@ import homeCards from "./home_cards.png";
 import feature from "./feature.png";
 import react from "./react.png";
 import mockup from "./mockup.png";
-import badge from"./Google_play_badge.png"
+import badge_android from"./Google_play_badge.png"
+import badge_ios from"./IOS_badge.png"
 import javascript from"./javascript.png"
 import scene from"./scene.png"
 import ebb1 from"./ebb1.png"
@@ -22,7 +23,8 @@ export default {
   feature,
   react,
   mockup,
-  badge,
+  badge_android,
+  badge_ios,
   javascript,
   scene,
   ebb1,
